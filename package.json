@@ -1,0 +1,11 @@
+{
+  "name": "shyari",
+  "version": "1.0.0",
+  "description": "This API has post and get method designed in node.js and express.js made for testing purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhinav Jha",
+  "license": "ISC"
+}
