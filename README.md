@@ -23,6 +23,9 @@ This is an Basic API right now but we are trying to improve it day by day and I 
 <img src="./svg/nodemon.svg" alt="nodemon" width="200" height="">
 
 
+<img src="./svg/mongodb.svg" alt="nodemon" width="200" height="">
+
+
 <h2>Getting Started</h2>
 
 Must have node.js in the system installed
