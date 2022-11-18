@@ -11,4 +11,6 @@ const productSchema = new mongoose.Schema({
     }
 });
 
+// Here shyari is the collection name and ProductSchema is the schema defined
+
 module.exports = mongoose.model('shyari', productSchema);
