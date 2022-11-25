@@ -6,7 +6,7 @@ const port = process.env.PORT || 4500;
 
 app.use(express.json());
 
-app.get('/', async (req, res) => {
+app.get('/get', async (req, res) => {
     let data = await product.find();
     console.log(data);
     res.send(data);
