@@ -14,7 +14,7 @@ Before running the application, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone [<repository-url>](https://github.com/abhinav3254/QUOTE-API)
+   git clone https://github.com/abhinav3254/QUOTE-API
    ```
 
 2. Install dependencies:
