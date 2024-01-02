@@ -1,5 +1,3 @@
-# Readme.md
-
 # Express API with MongoDB Integration
 
 This repository contains a simple Express.js API that interacts with a MongoDB database using Mongoose. The API provides endpoints for retrieving product data and inserting new products.
