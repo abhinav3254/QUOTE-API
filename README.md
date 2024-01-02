@@ -1,5 +1,84 @@
 # Readme.md
 
+# Express API with MongoDB Integration
+
+This repository contains a simple Express.js API that interacts with a MongoDB database using Mongoose. The API provides endpoints for retrieving product data and inserting new products.
+
+## Prerequisites
+
+Before running the application, ensure you have the following installed:
+
+- Node.js
+- MongoDB
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Configure the MongoDB connection:
+
+   Update the `db-config.js` file with your MongoDB connection details.
+
+4. Run the application:
+
+   ```bash
+   node index.js
+   ```
+
+   The server will start running on the specified port (default: 4500).
+
+## API Endpoints
+
+### 1. Retrieve All Products
+
+- **Endpoint:** `GET /`
+- **Description:** Fetches all product data from the database.
+- **Response:** JSON array containing product information.
+
+### 2. Insert New Product
+
+- **Endpoint:** `POST /insert`
+- **Description:** Inserts a new product into the database.
+- **Request Body:** JSON object representing the product to be inserted.
+- **Response:** JSON object containing the result of the insertion.
+
+## Example Usage
+
+### Retrieve All Products
+
+```bash
+curl http://localhost:4500
+```
+
+### Insert New Product
+
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"name": "New Product", "price": 29.99, "category": "Electronics"}' http://localhost:4500/insert
+```
+
+## Dependencies
+
+- Express.js: Web application framework
+- Mongoose: MongoDB object modeling for Node.js
+
+## Contributing
+
+Feel free to contribute to the project by submitting issues or pull requests. Your feedback and contributions are highly appreciated.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.   
+
 # About The Project
 
 <img src="./images/Quote-API JSON-Insert.png" alt="express">
